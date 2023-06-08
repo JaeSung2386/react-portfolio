@@ -1,0 +1,42 @@
+.header {
+  position: absolute;
+  display: flex;
+  height: 100px;
+  width: 100%;
+  z-index: 1000;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: #262626;
+}
+
+.header .logo {
+  margin-left: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Neutral Face";
+}
+
+.header ul {
+  list-style: none;
+  text-align: right;
+  margin-right: 30px;
+}
+
+.header ul li .link {
+  font-size: 20px;
+  font-family: "Neutral Face";
+  color: white;
+  font-weight: bold;
+  margin-top: 5px;
+  text-decoration: none;
+}
+
+.horizontal-list {
+  display: flex;
+  padding: 0;
+}
+
+.horizontal-list li {
+  margin-right: 10px;
+}
